@@ -16,6 +16,9 @@ module.exports = withStoreConfig({
     config.resolve.alias["@tanstack/react-query"] = reactQuery
     return config
   },
+  env: {
+    SERVER: process.env.SERVER,
+  },
 })
 
 console.log("next.config.js", JSON.stringify(module.exports, null, 2))
