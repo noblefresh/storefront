@@ -17,7 +17,7 @@ module.exports = withStoreConfig({
     return config
   },
   env: {
-    SERVER: process.env.SERVER,
+    SERVER: "http://localhost:9000",
   },
 })
 
