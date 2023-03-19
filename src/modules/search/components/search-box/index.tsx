@@ -44,8 +44,8 @@ const ControlledSearchBox = ({
         <div className="flex items-center justify-between">
           <input
             ref={inputRef}
-            autoComplete="off"
-            autoCorrect="off"
+            autoComplete="on"
+            autoCorrect="on"
             autoCapitalize="off"
             placeholder={placeholder}
             spellCheck={false}

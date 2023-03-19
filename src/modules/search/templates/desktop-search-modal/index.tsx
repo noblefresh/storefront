@@ -37,7 +37,6 @@ const DesktopSearchModal = () => {
         </Modal.Body>
       </Modal>
     </>
-  )
+  );
 }
-
 export default DesktopSearchModal
